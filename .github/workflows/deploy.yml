@@ -20,8 +20,12 @@ jobs:
       with:
         dotnet-version: 8.0.x
 
+    - name: Patch index.html for GitHub Pages
+      run: |
+        sed -i 's|<base href="/" />|<base href="/UltimateRoster/" />|' wwwroot/index.html
+
     - name: Publish Blazor app
-      run: dotnet publish UltimateRoster.csproj -c Release -o release /p:StaticWebAssetBasePath=/UltimateRoster /p:BaseHref=/UltimateRoster/
+      run: dotnet publish UltimateRoster.csproj -c Release -o release
 
     - name: List published files
       run: |
