@@ -21,7 +21,12 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Publish Blazor app
-      run: dotnet publish -c Release -o release --nologo
+      run: dotnet publish UltimateRoster/UltimateRoster.csproj -c Release -o release
+
+    - name: List published files
+      run: |
+        echo "Listing files in release/wwwroot:"
+        ls -R release/wwwroot
 
     - name: Copy wwwroot to expected output
       run: |
