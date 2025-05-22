@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "UltimateRoster",
   "resources": {
-    "hash": "sha256-ceYGdvVOOX33Ay5av+BpdcknGeWk90mwyBaHJYT6Xe0=",
+    "hash": "sha256-LLUVWvaYxu24NwrQ5rrYukVP03hXoBcUtItjHLE4Bo8=",
     "jsModuleNative": {
       "dotnet.native.8.0.16.khcj4p6y0x.js": "sha256-RiGT44TFZmHOY+Oqvb8o8r+BJVWex6+dPxFxrOiWvFY="
     },
@@ -48,7 +48,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-0fgkDu6bZaTTb0oq8IxKIYuV03/AHOd6qI0khJVIblQ=",
       "System.Text.Json.wasm": "sha256-ZNigLCDDOApqkE/aJCfqpYEYyUvknT+SGVXjdTUdFeo=",
       "System.Text.RegularExpressions.wasm": "sha256-HPb0gC3AzJ0nBAKn5id1W4tsGr6bkDcgCtPVXL5lWyg=",
-      "UltimateRoster.wasm": "sha256-inIQ8cc5w+J47hTb09CxXMYebfXMkrL/TGvB7uN+uZc="
+      "UltimateRoster.wasm": "sha256-O4IYNmmSkMOlce0sZeBdw5dfUAXOHCQGzWqEZO5Sib4="
     }
   },
   "cacheBootResources": true,
